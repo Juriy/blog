@@ -11,7 +11,8 @@
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-livereload": "~2.6.0",
     "docpad-plugin-marked": "~2.2.1",
-    "moment": "~2.6.0"
+    "moment": "~2.6.0",
+    "docpad-plugin-partials": "~2.9.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
