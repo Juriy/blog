@@ -1,0 +1,15 @@
+<header class="site-head">
+  <h1><a href="/">Juriy's Blog</a></h1>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+        <% for page in @getCollection("html").findAll({isPage:true}).toJSON(): %>
+            <li class="<%= if page.id is @document.id then 'active' else 'inactive' %>">
+                <a href="<%= page.url %>">
+                    <%= page.title %>
+                </a>
+            </li>
+        <% end %>
+    </ul>        
+  </nav>
+</header>
