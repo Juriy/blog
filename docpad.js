@@ -2,7 +2,7 @@ var moment = require('moment');
 moment.lang('en');
 
 var docpadConfig = {
-  
+  outPath: '../juriy.com',  
   templateData: {
 	formatDate: function(date, format) {
   		if (format === null) {
