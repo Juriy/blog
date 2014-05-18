@@ -1,0 +1,107 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 1.625;
+  color: rgb(77, 77, 77);
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size:100%;
+  }
+}  
+
+.wf-loading body {
+  font-family: sans-serif;
+}
+
+#wrapper {
+  width:100%;
+  max-width:990px;
+  margin:0 auto;
+}
+
+.post {
+  width: 85%;
+  margin: 4rem auto;
+
+}
+
+article.post header {
+  font-size: 5rem;
+  line-height: 1.2em;
+}
+
+article.post header a {
+  text-decoration: none;
+}
+
+article.post header a:hover {
+  text-decoration: underline;
+}
+
+::-moz-selection {
+  color:#222;
+  background: #D6EDFF;
+  text-shadow: none;
+}
+
+::selection{
+  color:#222;
+  background:#D6EDFF;
+  text-shadow:none;
+}
+
+footer {
+  display: none;
+}
+
+.post-meta {
+  font-size: 1.3rem;
+}
+
+.post-meta time {
+  background-color: lightgray;
+  color: white;
+  padding: 4px;
+  border-radius: 7px;
+}
+
+nav ul {
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+a {
+  color: grey;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 0.3rem;
+  color: grey;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.site-head {
+  text-align: center;
+}
+
+.site-head a {
+  text-decoration: none;
+}
+
+.site-head h1 {
+  margin: 0.5rem 0 0 0;
+}

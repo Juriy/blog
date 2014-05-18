@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Juriy's Blog</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="A blog about HTML5, JavaScript, Game Development and more." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="/img/icon.png" />
+  <link rel="stylesheet" href="/styles/normalize.css" />
+  <link rel="stylesheet" href="/styles/my.css" />
+
+    
+</head>
+<body>
+  <div id="wrapper">
+    <header class="site-head">
+      <h1><a href="/">Juriy's Blog</a></h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+            <% for page in @getCollection("html").findAll({isPage:true}).toJSON(): %>
+                <li class="<%= if page.id is @document.id then 'active' else 'inactive' %>">
+                    <a href="<%= page.url %>">
+                        <%= page.title %>
+                    </a>
+                </li>
+            <% end %>
+        </ul>        
+      </nav>
+    </header>
+
+    <main class="content" role="main">
+      <% for post in @posts(): %>
+          <article class="post">
+            <header><a href="<%= post.url %>" alt="<%= post.title %>"><%= post.title %></a></header>
+            <span class="post-meta">
+              <time><%= @formatDate(post.date, 'MMMM DD, YYYY') %></time>
+            </span>
+            <section>
+              <%- post.contentRenderedWithoutLayouts %>
+            </section>
+          </article>
+      <% end %>
+    </main>
+    
+    <footer>
+      <p>Some footer text here</p>
+    </footer>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Open Sans:400italic,400']
+      }
+    });
+  </script>
+</body>
+</html>
