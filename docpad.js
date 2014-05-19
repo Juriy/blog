@@ -9,12 +9,15 @@ var docpadConfig = {
 			format = 'LLLL';
   		}
   		return moment(date).format(format);
-	},
-	posts: function() {
-	  	return this.getCollection('html')
-	  		.findAllLive({relativeOutDirPath:'p'},[{date:-1}])
-	  		.toJSON();
 	}
+  },
+  collections: {
+	  posts: function() {
+			var res = this.getCollection('html')
+		  		.findAllLive({relativeOutDirPath:'p'},[{date:-1}]);
+		  	console.log("+++++ " + res.length);
+		  	return res;
+	  }
   }
 };
 
