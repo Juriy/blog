@@ -60,6 +60,21 @@ footer {
   display: none;
 }
 
+code {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #fdf6e3;
+  border: 1px solid #e1e1e8;
+}
+
+pre code.hljs {
+  white-space: inherit;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  padding: 2rem 1rem 1rem 2rem;
+}
+
 .post-meta {
   font-size: 1.3rem;
 }
