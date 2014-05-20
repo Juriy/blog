@@ -10,7 +10,7 @@ Mozilla loves colorful demos, but the one from this video has blown the JavaScri
 
 So what is asm.js and where does the speed comes from? Technically it is a subset of JavaScript, but in reality it is a different language: static and much stricter. It is designed to be JavaScript-compatible and thus can run by browsers, but it is not JavaScript. Have a look at the code:
 
-```
+```javascript
 // Based on the example from 2ality.com
 function TestModule(stdlib) {
   "use asm";
