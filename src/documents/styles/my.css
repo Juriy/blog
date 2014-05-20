@@ -61,11 +61,12 @@ footer {
 }
 
 code {
-  padding: 2px 4px;
+  padding: 2px 2px;
   color: #d14;
   white-space: nowrap;
   background-color: #fdf6e3;
   border: 1px solid #e1e1e8;
+  font-size: 1.6rem;
 }
 
 pre code.hljs {
