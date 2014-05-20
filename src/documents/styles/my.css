@@ -105,3 +105,33 @@ nav a:hover {
 .site-head h1 {
   margin: 0.5rem 0 0 0;
 }
+
+.pagination ul {
+  list-style: none outside none; 
+  margin: 0 0 1.5rem 0; 
+  padding: 0; 
+  text-align: center; 
+}
+
+.pagination li {
+  display: inline;
+  margin: 0 1rem 2rem 0;
+  border: 1px solid grey;
+  padding: 0 0.6rem;
+}
+
+.pagination a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination .active {
+  font-weight: bold;
+}
+
+.pagination .disabled {
+  text-decoration: none;
+  cursor: default;
+  color: lightgrey;
+  border-color: lightgrey;
+}
