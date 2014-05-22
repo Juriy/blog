@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <%- @partial("common-head", {title: @document.title, description: @document.description}) %>
 </head>
