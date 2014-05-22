@@ -45,7 +45,7 @@
   <meta property="og:title" content="<%= @document.title %>" /> 
   <meta property="og:type" content="article" /> 
   <meta property="og:url" content="http://juriy.com<%= @document.url %>" />
-  <meta property="og:image" content="http://juriy.com<%= @document.facebookImage %>" />
+  <meta property="og:image" content="<%= @document.facebookImage %>" />
   <meta property="og:description" content="<%= @document.facebookDescription %>" /> 
   <meta property="og:site_name" content="Juriy Blog" /> 
   <meta property="article:published_time" content="<%= @document.facebookPublishedTime %>" /> 
