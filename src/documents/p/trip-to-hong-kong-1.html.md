@@ -5,12 +5,12 @@ layout: "default"
 date: 2014-05-17
 
 largeImage: "http://juriy.com/img/trip-to-hong-kong-1/7.jpg"
-twitterDescription: "A first post about moving to China: impressions of Honk Kong"
-twitterImage: "http://juriy.com/img/trip-to-hong-kong-1/7.jpg"
-facebookImage: "http://juriy.com/img/trip-to-hong-kong-1/7.jpg"
-facebookDescription: "A first post about moving to China: impressions of Honk Kong"
-facebookPublishedTime: ""
-facebookModifiedTime: ""
+twitterDescription: "A first post about moving to China: impressions of Honk Kong together with some pictures."
+twitterImage: "http://juriy.com/img/trip-to-hong-kong-1/icon_300x300.jpg"
+facebookImage: "http://juriy.com/img/trip-to-hong-kong-1/icon-300x300.jpg"
+facebookDescription: "A first post about moving to China: impressions of Honk Kong together with some pictures. We arrived almost two weeks ago and had some time to look around."
+facebookPublishedTime: "2014-05-17"
+facebookModifiedTime: "2014-05-17"
 facebookSection: "china"
 ---
 
