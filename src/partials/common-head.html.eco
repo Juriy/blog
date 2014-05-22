@@ -1,5 +1,5 @@
- <title>Juriy's Blog. <%=@title %></title>
- <meta name="description" content="<%=@description or 'A blog about HTML5, JavaScript, Game Development and more.'%>" />
+ <title>Juriy's Blog. <%=@document.title %></title>
+ <meta name="description" content="<%=@document.description%>" />
  <meta charset="utf-8" />
  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />

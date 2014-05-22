@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/Article">
 <head>
-  <%- @partial("common-head", {title: "Juriy's Blog", description: "A blog about HTML5, JavaScript, Game Development and more."}) %>
+  <%- @partial("common-head") %>
 </head>
 <body>
   <div id="wrapper">
