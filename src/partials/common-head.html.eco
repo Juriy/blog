@@ -1,4 +1,4 @@
- <title>Juriy's Blog <%=@description %></title>
+ <title>Juriy's Blog. <%=@title %></title>
  <meta name="description" content="<%=@description or 'A blog about HTML5, JavaScript, Game Development and more.'%>" />
  <meta charset="utf-8" />
  <meta http-equiv="X-UA-Compatible" content="IE=edge" />

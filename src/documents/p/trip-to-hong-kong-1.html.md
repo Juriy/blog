@@ -1,5 +1,6 @@
 ---
 title: "Trip to Hong Kong"
+description: "A first post about moving to China: impressions of Honk Kong"
 layout: "default"
 date: 2014-05-17
 ---
