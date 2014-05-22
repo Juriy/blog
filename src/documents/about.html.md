@@ -21,6 +21,7 @@ If you want to write me – use one of the links below. I’m always glad to hea
 
 - Email me at: [juriy.bura@gmail.com][mailto-link]
 - Skype: juriy.bura
+- Github: [https://github.com/Juriy][github-link]
 - Twitter: [@juriy][twitter-profile-link]
 - Google+: [+JuriyBura][google-profile-link]
 - LinkedIn: [juriy][linkedin-profile-link]
@@ -31,3 +32,4 @@ If you want to write me – use one of the links below. I’m always glad to hea
 [twitter-profile-link]: http://twitter.com/juriy
 [google-profile-link]: https://plus.google.com/+JuriyBura/
 [mailto-link]: mailto:juriy.bura@gmail.com
+[github-link]: https://github.com/Juriy
