@@ -2,6 +2,15 @@
 title: "Levels of Testing"
 layout: "default"
 date: 2013-03-28
+
+largeImage: ""
+twitterDescription: ""
+twitterImage: ""
+facebookImage: ""
+facebookDescription: ""
+facebookPublishedTime: ""
+facebookModifiedTime: ""
+facebookSection: ""
 ---
 
 I would never expect that I’m so much into test automation. Last few days I watched a crowd of browsers clicking  buttons, uploading files and navigating across webpages without even a move of a muscle from my side. That probably have something to do with my passion towards all kind of game bots… or this is an escape from the cruel reality and ugly code of a new project.

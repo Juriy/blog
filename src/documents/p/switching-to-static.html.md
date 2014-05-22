@@ -2,6 +2,16 @@
 title: "Switching to static"
 layout: "default"
 date: 2014-05-18
+
+largeImage: ""
+twitterDescription: ""
+twitterImage: ""
+facebookImage: ""
+facebookDescription: ""
+facebookPublishedTime: ""
+facebookModifiedTime: ""
+facebookSection: ""
+
 ---
 
 I've got rid of Wordpress. During 8 years of blogging I was fighting with it. Everybody else around was using WP I thought that the problem was in me and all that pain is an essential part of tech writing. Wordpress was getting bigger and bigger and now it looks like an overly-complex engine for a small thing like a blog with several dozens of posts. It is still great for something more complex, but for serving several dozens of posts it is too much. For me personally the most useful feature of WP was commenting system but high volumes of spam drive standard Wordpress comments almost useless.

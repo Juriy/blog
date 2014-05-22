@@ -2,6 +2,15 @@
 title: "My Book"
 layout: "default"
 isPage: true
+
+largeImage: ""
+twitterDescription: ""
+twitterImage: ""
+facebookImage: ""
+facebookDescription: ""
+facebookPublishedTime: ""
+facebookModifiedTime: ""
+facebookSection: ""
 ---
 
 ![Book cover][book-featured]

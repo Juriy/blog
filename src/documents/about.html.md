@@ -2,10 +2,19 @@
 title: "About me"
 layout: "default"
 isPage: true
+
+largeImage: ""
+twitterDescription: ""
+twitterImage: ""
+facebookImage: ""
+facebookDescription: ""
+facebookPublishedTime: ""
+facebookModifiedTime: ""
+facebookSection: ""
 ---
 
-<img src="/img/bura-medium-nobg-small.jpg" style="float: left" alt="portrait" />
 
+<img src="/img/apple-touch-icon-152x152.png" style="float: left; margin-right: 20px" alt="logo" />
 Hi! My name is Juriy Bura. I'm a JavaScript programmer, HTML5 game developer, author and a teacher. 
 
 I think that making games is at least as much fun as playing them. And for sure gamedev takes the first position in my personal “happiness per line of code” chart. If you never tried to write your own game before – just do it and believe me you will open a whole new world.

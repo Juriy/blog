@@ -2,6 +2,16 @@
 title: "asm.js - The Good, The Bad or The Ugly?"
 layout: "default"
 date: 2013-03-30 
+
+largeImage: ""
+twitterDescription: ""
+twitterImage: ""
+facebookImage: ""
+facebookDescription: ""
+facebookPublishedTime: ""
+facebookModifiedTime: ""
+facebookSection: ""
+
 ---
 
 Lots of things happening this week in JavaScript realm. The most amazing and at the same time contradictory is [asm.js][asmjs] that was merged in the latest Firefox Nightly. asm.js is a subset of JavaScript that is optimized as good as half-native performance.
