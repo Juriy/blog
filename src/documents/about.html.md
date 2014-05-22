@@ -10,8 +10,8 @@ twitterDescription: "Page about Juriy Bura - JavaScript programmer, HTML5 game d
 twitterImage: "http://juriy.com/img/about/bura-medium-nobg.jpg"
 facebookImage: "http://juriy.com/img/about/bura-medium-nobg.jpg"
 facebookDescription: "Page about Juriy Bura - JavaScript programmer, HTML5 game developer, author and a teacher."
-facebookPublishedTime: "date: 2014-05-23"
-facebookModifiedTime: "date: 2014-05-23"
+facebookPublishedTime: "2014-05-23"
+facebookModifiedTime: "2014-05-23"
 
 ---
 
