@@ -1,16 +1,18 @@
 ---
 title: "About me"
 layout: "default"
+description: "Page about Juriy Bura - JavaScript programmer, HTML5 game developer, author and a teacher."
 isPage: true
+date: 2014-05-23
 
-largeImage: ""
-twitterDescription: ""
-twitterImage: ""
-facebookImage: ""
-facebookDescription: ""
-facebookPublishedTime: ""
-facebookModifiedTime: ""
-facebookSection: ""
+largeImage: "http://juriy.com/img/about/bura-medium-nobg.jpg"
+twitterDescription: "Page about Juriy Bura - JavaScript programmer, HTML5 game developer, author and a teacher."
+twitterImage: "http://juriy.com/img/about/bura-medium-nobg.jpg"
+facebookImage: "http://juriy.com/img/about/bura-medium-nobg.jpg"
+facebookDescription: "Page about Juriy Bura - JavaScript programmer, HTML5 game developer, author and a teacher."
+facebookPublishedTime: "date: 2014-05-23"
+facebookModifiedTime: "date: 2014-05-23"
+
 ---
 
 
