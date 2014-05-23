@@ -80,10 +80,10 @@ I hope that you will find this material useful. Since my blog does not yet have 
 
 Links: 
 
- + [ecmascript 5](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
- + [new in ecma 5](http://www.infoq.com/news/2011/04/ECMAScript-5)
- + [ecmascript 6](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts)
-
+ + [ECMA-262 5ed](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
+ + [ECMA-262 6ed draft](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts)
+ + [New in ECMAScript 5](http://www.infoq.com/news/2011/04/ECMAScript-5)
+ 
 
 [koa]: http://koajs.com/ "koa.js"
 [mdn]: https://developer.mozilla.org/en/docs/Web/JavaScript/ECMAScript_6_support_in_Mozilla
