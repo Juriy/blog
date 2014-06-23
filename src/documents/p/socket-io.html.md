@@ -3,10 +3,10 @@ title: "What's new in Socket.IO 1.0"
 layout: "default"
 date: 2014-06-23
 
-largeImage: ""
+largeImage: "/img/socket-io/socket-io-components.png"
 twitterDescription: "What's new in Socket.IO 1.0"
-twitterImage: ""
-facebookImage: ""
+twitterImage: "/img/socket-io/socket-io-components.png"
+facebookImage: "/img/socket-io/socket-io-components.png"
 facebookDescription: "What's new in Socket.IO 1.0"
 facebookPublishedTime: "2014-06-23"
 facebookSection: "misc"
@@ -58,7 +58,7 @@ New Modules
 =========
 Before 1.0 Socket.IO was distributed as solid npm package that implemented every bit of functionality inside.
 
-In Socket.IO 1.0 the code broke up into several small reusable modules less dependent on each other. The most notable shift is the extraction of low-level transport details into a separate project called Engine.IO. Now Socket.IO's job is to provide only higher-level facilities: multiplexing, reconnection, rooms, broadcasting, ect. All the heavy-lifting related to transports is done by Engine.IO. 
+In Socket.IO 1.0 the code broke up into several small reusable modules less dependent on each other. The most notable shift is the extraction of low-level transport details into a separate project called Engine.IO. Now Socket.IO's job is to provide only higher-level facilities: multiplexing, reconnection, rooms, broadcasting, etc. All the heavy-lifting related to transports is done by Engine.IO. 
 
 This change is purely internal. If you are writing your code against Socket.IO you will not see the difference, as Engine.IO is not exposed "as is" to the client code. It is and important and very well-thought architectural change as it makes the overall project more maintainable. Besides, now there's a clear borders of components' responsibilities: Socket.IO is doing logic, Engine.IO is doing communication. 
 
@@ -131,7 +131,7 @@ Summarizing the changes, Socket.IO 1.0 became cleaner, smarter and easier to ext
 
 Links
 ====
-Below are some links to githunb repositories that I referred in this post.
+Below are some links to github repositories that I referred in this post.
 
 - https://github.com/Automattic/engine.io
 - https://github.com/Automattic/engine.io-parser
@@ -145,4 +145,6 @@ Below are some links to githunb repositories that I referred in this post.
 
 Comments
 ========
-Please add your comments on github, or twitter <a href="https://twitter.com/juriy">@juriy</a>. 
+Please add your comments on [github](https://github.com/Juriy/blog/blob/master/src/documents/p/socket-io.html.md), or twitter [@juriy](https://twitter.com/juriy). 
+
+Don't forget to follow, this will surely encourage more great posts!
