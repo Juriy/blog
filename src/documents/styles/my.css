@@ -1,47 +1,52 @@
-html {
-  font-size: 62.5%;
-}
-
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
-  line-height: 1.625;
-  color: rgb(77, 77, 77);
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1em;
+    color: #444444;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    background: url('http://subtlepatterns.com/patterns/brillant.png');
+    overflow-x: hidden;
 }
 
-@media only screen and (max-width: 800px) {
-  body {
-    font-size:100%;
+.header {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #f6f6f6;
+    -moz-box-shadow: 0px 2px 9px #888;
+    -webkit-box-shadow: 0px 2px 9px #888;
+    box-shadow: 0px 2px 9px #888;
+    height: 170px;
+    margin-bottom: 3em;
+}
+
+.promotions li {
+  list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.main-col {
+  padding-left: 20%;
+  line-height: 1.5em;
+}
+
+@media handheld, only screen and (max-width: 900px) {
+  .main-col {
+    color: red;
+    padding-left: 10%;
   }
-}  
-
-.wf-loading body {
-  font-family: sans-serif;
 }
 
-#wrapper {
-  width:100%;
-  max-width:990px;
-  margin:0 auto;
-}
+@media handheld, only screen and (max-width: 767px) {
 
-.post {
-  width: 85%;
-  margin: 4rem auto;
-
-}
-
-article.post header {
-  font-size: 5rem;
-  line-height: 1.2em;
-}
-
-article.post header a {
-  text-decoration: none;
-}
-
-article.post header a:hover {
-  text-decoration: underline;
+  .main-col {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    color: green;
+  }
 }
 
 ::-moz-selection {
@@ -50,42 +55,38 @@ article.post header a:hover {
   text-shadow: none;
 }
 
-::selection{
+::selection {
   color:#222;
   background:#D6EDFF;
   text-shadow:none;
 }
 
-footer {
-  display: none;
+article img {
+  max-width: 100%;
+}
+
+article header {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+article header a, 
+article header a:visited,
+article header a:hover,
+article header a:active {
+  color: inherit;
+  text-decoration: none;
 }
 
 code {
   padding: 2px 2px;
   color: #d14;
   white-space: nowrap;
-  background-color: #fdf6e3;
   border: 1px solid #e1e1e8;
-  font-size: 1.6rem;
-  vertical-align: text-bottom;
 }
 
 pre code.hljs {
   white-space: inherit;
-  font-size: 1.6rem;
-  line-height: 2.1rem;
-  padding: 2rem 1rem 1rem 2rem;
-}
-
-.post-meta {
-  font-size: 1.3rem;
-}
-
-.post-meta time {
-  background-color: lightgray;
-  color: white;
-  padding: 4px;
-  border-radius: 7px;
 }
 
 nav ul {
@@ -94,33 +95,7 @@ nav ul {
 }
 
 nav li {
-  display: inline;
-}
-
-a {
-  color: grey;
-}
-
-nav a {
-  text-decoration: none;
-  padding-right: 0.3rem;
-  color: grey;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.site-head {
-  text-align: center;
-}
-
-.site-head a {
-  text-decoration: none;
-}
-
-.site-head h1 {
-  margin: 0.5rem 0 0 0;
+  list-style: none outside none;
 }
 
 .pagination ul {

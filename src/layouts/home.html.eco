@@ -4,17 +4,39 @@
   <%- @partial("common-head") %>
 </head>
 <body>
-  <div id="wrapper">
-    <%- @partial('header') %>
+    <div class="header">
+      <div class="headerContent grid grid-pad">
+        <div class="col-1-2 header-content"></div>
+        <div id="viewport"></div>
+      </div>
+    </div>
 
-    <main class="content" role="main">
-      <% for post in @getPageCollection('posts').toJSON(): %>
-        <%- @partial('post', {post: post}) %>
-      <% end %>
-          <!-- Page Listing -->
-      <%- @partial('pagination') %>
-    </main>
-  </div>
+    <div class="col-9-12 main-col">
+      <main class="content" role="main">
+        <% for post in @getPageCollection('posts').toJSON(): %>
+          <%- @partial('post', {post: post}) %>
+        <% end %>
+            <!-- Page Listing -->
+        <%- @partial('pagination') %>
+      </main>
+    </div>
+
+    <div class="col-3-12">
+      <%- @partial('header') %>
+
+      <ul class="promotions">
+        <li>
+          <div class="promo-block">
+            Upcoming Webinars
+          </div>
+        </li>
+        <li>
+          <div class="promo-block">
+            My Online Courses
+          </div>
+        </li>
+      </ul>
+    </div>
 
   <%- @partial('common-scripts') %>
 </body>
