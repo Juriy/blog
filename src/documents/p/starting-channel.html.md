@@ -16,6 +16,8 @@ Last few months I was experimenting a lot with video tutorials and webinars. Sta
 
 Today I've started a separate YouTube stream to share my tutorials. This time it is my favorite subject - Game Development with JavaScript. Unlike the book, the tutorial series puts a strong focus on multiplayer. With the development of Node.js and NoSQL databases that allow to scale your platform so easily - multiplayer game dev becomes so much easier!
 
+<a href="https://www.youtube.com/channel/UCgLk3uHNua8NoRQhSDZ4Ecg"><img src="/img/starting-youtube-channel/yt-channel-cover.jpg" /></a>
+
 Subscribe if you like it! https://www.youtube.com/channel/UCgLk3uHNua8NoRQhSDZ4Ecg
 
 Video posting has a huge potential, with its limitations of course. For example, I still don't like to read the code from streaming video. Everybody reads at his own pace: for some the code might be obvious and others will need to spend more time getting through the lines. 
