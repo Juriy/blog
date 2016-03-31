@@ -131,3 +131,8 @@ nav li {
   color: lightgrey;
   border-color: lightgrey;
 }
+
+img.cover {
+  float: left; 
+  margin: 0 12px 12px 0;
+}
