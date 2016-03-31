@@ -14,7 +14,7 @@ facebookSection: "misc"
 ---
 <img src="/img/posts/livecoding-channel/livecoding.jpg" class="cover"/>
 
-Today I descovered a very interesting platform and I instantly fell in love with it. It is <a href="http://livecoding.tv">http://livecoding.tv</a>. In simple words, this is Twitch for coders. 
+Today I descovered a very interesting platform and I instantly fell in love with it. It is <a href="http://livecoding.tv">http://livecoding.tv</a>. In simple words, this is Twitch for coders. The idea is great! So if you want to live-code together some day, subscribe to my <a href="http://livecoding.tv/juriy">channel</a>!
 
 People stream their work process, commenting as they code. What makes it better than the other streaming services is the clear targeting on code, social and discovery features. Once I marked my channel as “HTML5 GameDev” and started to stream I had first developers joining the broadcast in just few minutes.
 
@@ -22,4 +22,4 @@ There’s still much to improve on the platform though. The biggest downside for
 
 Overall, I think the service will have a bright future. 
 
-For the next few weeks I will be broadcasting several sessions on JS and GameDev. Follow me on Livecoding!
+For the next few weeks I will be broadcasting several sessions on JS and GameDev. <a href="http://livecoding.tv/juriy">channel</a>Follow me on Livecoding</a>!
