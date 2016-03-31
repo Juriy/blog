@@ -136,3 +136,26 @@ img.cover {
   float: left; 
   margin: 0 12px 12px 0;
 }
+
+.iconrow {
+}
+
+.iconrow .icon {
+  display: inline-block;
+  width: 190px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 190px 190px;
+}
+
+.icon.js-intro-webinar {
+  background-image: url('/img/courses/js-beginners.jpg');
+}
+
+.icon.node-intro-webinar {
+  background-image: url('/img/courses/js-beginners.jpg');
+}
+
+.icon.git-intro-webinar {
+  background-image: url('/img/courses/js-beginners.jpg');
+}
