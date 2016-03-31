@@ -22,4 +22,4 @@ There’s still much to improve on the platform though. The biggest downside for
 
 Overall, I think the service will have a bright future. 
 
-For the next few weeks I will be broadcasting several sessions on JS and GameDev. <a href="http://livecoding.tv/juriy">channel</a>Follow me on Livecoding</a>!
+For the next few weeks I will be broadcasting several sessions on JS and GameDev. <a href="http://livecoding.tv/juriy">Follow me on Livecoding</a>!
