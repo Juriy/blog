@@ -19,19 +19,6 @@
 
     <div class="col-3-12">
       <%- @partial('header') %>
-
-      <ul class="promotions" style="display:none">
-        <li>
-          <div class="promo-block">
-            Upcoming Webinars
-          </div>
-        </li>
-        <li>
-          <div class="promo-block">
-            My Online Courses
-          </div>
-        </li>
-      </ul>
     </div>
 
   <%- @partial('common-scripts') %>

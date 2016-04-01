@@ -153,9 +153,13 @@ img.cover {
 }
 
 .icon.node-intro-webinar {
-  background-image: url('/img/courses/js-beginners.jpg');
+  background-image: url('/img/courses/node-bootcamp.jpg');
 }
 
 .icon.git-intro-webinar {
-  background-image: url('/img/courses/js-beginners.jpg');
+  background-image: url('/img/courses/git-bootcamp.jpg');
+}
+
+.icon.html5-game-video {
+  background-image: url('/img/courses/html5-game-video.jpg');
 }

@@ -25,9 +25,9 @@ sure to answer all your questions. As an additional bonus, each student
 gets 30-50% discount on selected videocourses.
 
 <div class="iconrow">
-  <div class="icon js-intro-webinar"></div>
-  <div class="icon node-intro-webinar"></div>
-  <div class="icon git-intro-webinar"></div>
+  <a href="/courses/js-intro-webinar.html"><div class="icon js-intro-webinar"></div></a>
+  <a href="/courses/node-js-webinar.html"><div class="icon node-intro-webinar"></div></a>
+  <a href="/courses/git-bootcamp-webinar.html"><div class="icon git-intro-webinar"></div></a>
 </div>
 
 Video Courses
@@ -46,10 +46,7 @@ and diagrams are easy to read with most mobile devices.
 
 
 <div class="iconrow">
-  <div class="icon js-intro-webinar"></div>
-  <div class="icon node-intro-webinar"></div>
-  <div class="icon git-intro-webinar"></div>
-  <div class="icon js-intro-webinar"></div>
-  <div class="icon node-intro-webinar"></div>
-  <div class="icon git-intro-webinar"></div>
+  <a href="/courses/js-intro-video.html"><div class="icon js-intro-webinar"></div></a>
+  <a href="/courses/html-gamedev-video.html"><div class="icon html5-game-video"></div></a>
+  <a href="/courses/git-bootcamp-video.html"><div class="icon git-intro-webinar"></div></a>
 </div>

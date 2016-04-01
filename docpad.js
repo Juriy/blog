@@ -15,7 +15,12 @@ var docpadConfig = {
 	  posts: function() {
 			var res = this.getCollection('html')
 		  		.findAllLive({relativeOutDirPath:'p'},[{date:-1}]);
-		  	console.log("+++++ " + res.length);
+		  	return res;
+	  },
+
+	  courses: function() {
+			var res = this.getCollection('html')
+		  		.findAllLive({relativeOutDirPath:'courses'},[{date:-1}]);
 		  	return res;
 	  }
   }
