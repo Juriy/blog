@@ -1,7 +1,7 @@
 {
   "name": "juriy-blog",
   "version": "0.0.1",
-  "description": "New DocPad project without using a skeleton",
+  "description": "juriy.com blog",
   "engines": {
     "node": "0.10",
     "npm": "1.3"

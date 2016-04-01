@@ -9,7 +9,20 @@ var docpadConfig = {
 			format = 'LLLL';
   		}
   		return moment(date).format(format);
-	}
+	},
+
+	getPostPreview: function(content) {
+        var pos = content.search('<!-- Read more -->');
+        if (pos >= 0) {
+        	return content.substr(0, pos - 1);                
+        } else {
+        	return content;
+        }
+	},
+
+    hasMore: function(content) {
+        return content.search('<!-- Read more -->') >= 0
+    }
   },
   collections: {
 	  posts: function() {

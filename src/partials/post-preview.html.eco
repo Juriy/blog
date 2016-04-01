@@ -1,0 +1,14 @@
+<article class="post">
+  <header>
+  	<a href="<%= @post.url %>" alt="<%= @post.title %>"><%= @post.title %></a>
+  </header>
+  <span class="post-meta">
+    <time><%= @formatDate(@post.date, 'MMMM DD, YYYY') %></time>
+  </span>
+  <section>
+  	<%- @getPostPreview(String(@post.contentRenderedWithoutLayouts)) %>
+    <% if @hasMore(String(@post.contentRenderedWithoutLayouts)): %>
+	<a href="<%= @post.url %>">Read more ...</a>
+	<% end %>
+  </section>
+</article>

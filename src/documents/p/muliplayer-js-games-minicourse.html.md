@@ -15,7 +15,7 @@ facebookSection: "misc"
 
 <img src="/img/js-games/mini-course-logo.jpg" style="width: 50%" />
 
-I started a new video mini-course "Multiplayer JS Games". So far there are 4 lessons (more than an hour of video) released on a <a href="https://www.youtube.com/playlist?list=PLrEyydzMmC6CnC-DqbkFn5btBnqhxbaEj">YouTube channel</a>. The course  shows how to create a multiplayer game from a scratch **and** learn EcmaScript-2015 syntax in practice. Check it out! 
+I started a new video mini-course "Multiplayer JS Games". So far there are 4 lessons (more than an hour of video) released on a <a href="https://www.youtube.com/playlist?list=PLrEyydzMmC6CnC-DqbkFn5btBnqhxbaEj">YouTube channel</a>. The course  shows how to create a multiplayer game from a scratch **and** learn EcmaScript-2015 syntax in practice. Check it out! <!-- Read more -->
 
 Lesson 1: Client-server handshake
 ---------------------------------

@@ -14,7 +14,7 @@
     <div class="col-9-12 main-col">
       <main class="content" role="main">
         <% for post in @getPageCollection('posts').toJSON(): %>
-          <%- @partial('post', {post: post}) %>
+          <%- @partial('post-preview', {post: post}) %>
         <% end %>
             <!-- Page Listing -->
         <%- @partial('pagination') %>

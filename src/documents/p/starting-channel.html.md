@@ -20,7 +20,7 @@ Today I've started a separate YouTube stream to share my tutorials. This time it
 
 Subscribe if you like it! https://www.youtube.com/channel/UCgLk3uHNua8NoRQhSDZ4Ecg
 
-Video posting has a huge potential, with its limitations of course. For example, I still don't like to read the code from streaming video. Everybody reads at his own pace: for some the code might be obvious and others will need to spend more time getting through the lines. 
+Video posting has a huge potential, with its limitations of course. For example, I still don't like to read the code from streaming video. Everybody reads at his own pace: for some the code might be obvious and others will need to spend more time getting through the lines. <!-- Read more --> 
 
 I found that **the best** kind of *remote* learning (because nothing can beat working together at the same desk and sharing the same white board) will be videos + github + small e-book guides if you have to refresh the knowledge.
 
